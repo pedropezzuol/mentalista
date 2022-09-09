@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+body{
+    background-color: rgb(26, 26, 58);
+    color: white;   
+}
+
+input{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #ccc;
+}
+
+.title{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+button{
+    border: 1px solid transparent;
+}
+
+.title-mentalista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(52, 30, 77);
+    box-shadow: 0px 7px 25px rgb(67, 3, 110);
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container-heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart{
+    width: 45px;
+}
+
+.resultado{
+    text-align: center;
+    color: transparent;
+    cursor: default;
+}
+
+#text-vida{
+    margin-top: 9px;
+    text-align: center;
+}
